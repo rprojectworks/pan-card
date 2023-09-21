@@ -1,6 +1,24 @@
-.main {
-    background-color:orange;
+.heading {
+    background-color:maroon;
+    text-align:center;
+    color:white;
+    margin-top:0px;
+
 }
-.main1 {
-    background-color:yellow;
+.subheading {
+    color:white;
+    background-color:maroon;
+    text-align:center;
+    margin-top:0px;
+
+}
+.form {
+    background-color:bisque;
+    margin-top:0px;
+}
+
+.label {
+    display:inline;
+    float:left;
+    clear:none;
 }
