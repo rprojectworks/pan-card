@@ -4,9 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="main">this is main</div>
+    <div class="heading">Request for New PAN Card Or/And Changes Or Correction in PAN Data</div>
+    <div class="subheading">Fields market with *(asterisk) are mandatory. To avoid mistake(s), please refer <a href="https://www.google.com/">guidelines</a> and <a href="https://www.google.com/">instructions</a></div>
+<form class="form" method="POST">
+    <label for="citizen">*Whether citizen of India</label>
+    <label for="citizen">Yes</label>
+    <input type="radio" name="" id="citizen" value="Yes">
+    <label for="citizen">No</label>
+        <input type="radio" name="" id="citizen" value="No"><br><hr>
+        <label for="PAN">*Permanent Account Number (PAN)</label>
+        <input type="text" name="" id="PAN"><br><hr>
+        <p>*1.Name</p><hr>
+        <label for="nametitle">Title    </label>
+        <label for="nametitle">Shri/Mr</label>
+        <input type="radio" name="" id="nametitle" value="Shri/Mr">
+        <label for="nametitle">Smt/Mrs</label>
+        <input type="radio" name="" id="nametitle" value="Smt/Mrs">
+        <label for="nametitle">Kumari/Ms</label>
+        <input type="radio" name="" id="nametitle" value="Kumari/Ms"><br><hr>
+        <label for="LastName">Last Name/Surname</label>
+        <input type="text" name="" id="LastName">
+        <label for="FirstName">First Name</label>
+        <input type="text" name="" id="FirstName">
+        <label for="MiddleName">Middle Name</label>
+        <input type="text" name="" id="MiddleName"><br><hr>
+        <label for="PrintNameCard">Name as you would like it printed on the card(Prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mr,Mrs,M/s,Alias etc. are not allowed)</label><br>
+        <input type="text" name="" id="PrintNameCard"><hr>
+        <p>Details of Parents (Prefix like Shri,Smt,Kumari,Late,Dr,CA,Ms,Mr,Mrs,M/s,Alias etc. are not allowed)</p><hr>
+        <label for="MotherSingleParent">Whether mother is single parent and you wish to apply for PAN by furnishing the name of your mother only     </label>
+        <label for="MotherSingleParent">Yes</label>
+        <input type="radio" name="" id="MotherSingleParent" value="Yes">
+        <label for="MotherSingleParent">No</label>
+            <input type="radio" name="" id="MotherSingleParent" value="No"><br><hr>
+            <p>Father's Name(Mandatory field. Even married women should give father's name only)</p>
+            <label for="FatherLastName">Last Name/Surname</label>
+            <input type="text" name="" id="FatherLastName">
+            <label for="FatherFirstName">First Name</label>
+            <input type="text" name="" id="FatherFirstName">
+            <label for="FatherMiddleName">Middle Name</label>
+            <input type="text" name="" id="FatherMiddleName"><hr>
+            <p>Mother's Name(This field is optional)</p>
+            <label for="MotherLastName">Last Name/Surname</label>
+            <input type="text" name="" id="MotherLastName">
+            <label for="MotherFirstName">First Name</label>
+            <input type="text" name="" id="MotherFirstName">
+            <label for="MotherMiddleName">Middle Name</label>
+            <input type="text" name="" id="MotherMiddleName"><hr>
+            <p>4. Select Parent name which is to be printed on the card</p>
+            <p>(Incase no option is provided the PAN card will be issued with fathers name only)</p><hr>
+            <label for="PrintFatherName">Father Name</label>
+            <input type="radio" name="" id="PrintFatherName" value="FatherName">
+            <label for="PrintMotherName">Mother Name</label>
+                <input type="radio" name="" id="PrintMotherName" value="MotherName"><br><hr>
+                <label for="DateBirth">*5. Date of Birth/Incorporation/Agreement/Partnership or Trust Deed/Formation of Body of Individuals/Association of Persons</label>
+                <input type="date" name="" id="DateBirth" value="Yes"><hr>
+                <p>*6.Gender</p>
+                <label for="Gender">Male</label>
+                <input type="radio" name="" id="Gender" value="Male">
+                <label for="Gender">Female</label>
+                <input type="radio" name="" id="Gender" value="Female">
+                <label for="Gender">Transgender</label>
+                <input type="radio" name="" id="Gender" value="Transgender"><hr>
+                <p>7.Photo Mismatch</p><hr>
+                <p>8.Signature Mismatch</p><hr>
+</form>
 </body>
 </html>
